@@ -252,24 +252,49 @@ hr {
 
 /* Footer */
 footer {
-    text-align: center;
-    padding: 20px;
     background-color: #0A2463;
-    color: white;
-    margin-top: 80px;
-}
-
-.footer-content {
+    padding: 40px 5%;
     display: flex;
     justify-content: space-between;
-    max-width: 1031px;
-    margin: 0 auto;
-    padding: 20px;
+    align-items: flex-start;
+}
+
+footer h2 {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .footer-section {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+
+.footer-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 32px; /* Adjust size */
+    height: 32px;
+}
+
 
 /* Mobile devices (tablets, 768px and higher) */
 @media (min-width: 768px) {
