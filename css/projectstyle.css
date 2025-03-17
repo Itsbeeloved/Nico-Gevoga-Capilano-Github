@@ -151,44 +151,59 @@ hr {
 .project-container {
     margin-bottom: 40px;
 }
-
 /* Footer */
 footer {
-    background-color: #0542BF;
+    background-color: #07328B;
     color: white;
-    padding: 40px 0;
+    padding: 20px 0;
     margin-top: 80px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     max-width: 1031px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.footer-section {
-    margin-bottom: 20px;
+.footer-name, .footer-find-me, .footer-contact, .footer-navigation {
+    text-align: left;
 }
 
-.footer-section h2 {
+.footer-name h2 {
     font-size: 2rem;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
-.footer-section h4 {
+.footer-find-me h4, .footer-contact h4, .footer-navigation h4 {
     color: #FFFFFF;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
-.footer-section p {
-    margin-bottom: 10px;
+.footer-contact p {
+    margin-bottom: 5px;
+}
+
+.footer-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-navigation li {
+    margin-bottom: 5px;
+}
+
+.social-icons img {
+    width: 25px;
+    margin-right: 5px;
+}
+.yellow-jellyfish {
+    /* Position the jellyfish image later */
+    width: 100%;
 }
 
 /* Mobile devices (tablets, 768px and higher) */
