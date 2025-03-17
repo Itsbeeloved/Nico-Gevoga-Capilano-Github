@@ -155,11 +155,12 @@ hr {
 /* Footer */
 footer {
     background-color: #07328B;
-    color: white; 
+    color: white;
     padding: 20px 0;
     margin-top: 80px;
     width: 100%;
     box-sizing: border-box;
+    position: relative;
 }
 
 .footer-content {
@@ -179,6 +180,7 @@ footer {
     font-size: 2rem;
     margin-bottom: 5px;
     color: white; 
+    margin-top: -10px;
 }
 
 .footer-find-me h4, .footer-contact h4, .footer-navigation h4 {
@@ -212,7 +214,7 @@ footer {
 
 .yellow-jellyfish {
     /* Position the jellyfish image later */
-    width: 60%; 
+    width: 65%; 
 }
 
 /* Mobile devices (tablets, 768px and higher) */
