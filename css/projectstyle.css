@@ -151,10 +151,11 @@ hr {
 .project-container {
     margin-bottom: 40px;
 }
+
 /* Footer */
 footer {
     background-color: #07328B;
-    color: white;
+    color: white; 
     padding: 20px 0;
     margin-top: 80px;
     width: 100%;
@@ -177,15 +178,17 @@ footer {
 .footer-name h2 {
     font-size: 2rem;
     margin-bottom: 5px;
+    color: white; 
 }
 
 .footer-find-me h4, .footer-contact h4, .footer-navigation h4 {
-    color: #FFFFFF;
+    color: white; 
     margin-bottom: 5px;
 }
 
 .footer-contact p {
     margin-bottom: 5px;
+    color: white; 
 }
 
 .footer-navigation ul {
@@ -197,13 +200,19 @@ footer {
     margin-bottom: 5px;
 }
 
+.footer-navigation a {
+    color: white; 
+    text-decoration: none; 
+}
+
 .social-icons img {
     width: 25px;
     margin-right: 5px;
 }
+
 .yellow-jellyfish {
     /* Position the jellyfish image later */
-    width: 100%;
+    width: 60%; 
 }
 
 /* Mobile devices (tablets, 768px and higher) */
