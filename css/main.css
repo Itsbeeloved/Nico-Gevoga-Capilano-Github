@@ -154,6 +154,21 @@ hr {
     margin: 40px 0;
 }
 
+.middle-jellyfish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40rem;
+    margin-top: -10rem;
+    margin-bottom: -8rem;
+    width: 760px;
+    height: 713px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
 /* Projects Section */
 .project-list h3 {
     color: #FFFFFF;
