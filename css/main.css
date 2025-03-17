@@ -118,25 +118,6 @@ header h2 {
     position: relative;
 }
 
-/* Jellyfish Graphics */
-.orange-jellyfish {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    max-width: 25%;
-    height: auto;
-    z-index: 0;
-}
-
-.yellow-jellyfish {
-    position: absolute;
-    left: 0;
-    bottom: 20%;
-    max-width: 40%;
-    height: auto;
-    z-index: 0;
-}
-
 /* About Me Section */
 .about-content {
     display: flex;
@@ -252,47 +233,67 @@ hr {
 
 /* Footer */
 footer {
-    background-color: #0A2463;
-    padding: 40px 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    background-color: #0542BF;
+    color: white;
+    padding: 40px 0;
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
 }
 
-footer h2 {
-    font-size: 24px;
-    font-weight: bold;
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1031px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .footer-section {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    margin-bottom: 20px;
 }
 
-.footer-section h3 {
-    font-size: 18px;
-    font-weight: bold;
+.footer-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
 }
 
-.footer-section a {
-    color: white;
-    text-decoration: none;
+.footer-section h4 {
+    color: #FFFFFF;
+    margin-bottom: 15px;
 }
 
-.footer-section a:hover {
-    text-decoration: underline;
+.footer-section p {
+    margin-bottom: 10px;
 }
 
-/* Social Media Icons */
 .social-icons {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .social-icons img {
-    width: 32px; /* Adjust size */
-    height: 32px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
 }
 
 
