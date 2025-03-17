@@ -118,6 +118,25 @@ header h2 {
     position: relative;
 }
 
+/* Jellyfish Graphics */
+.orange-jellyfish {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    max-width: 25%;
+    height: auto;
+    z-index: 0;
+}
+
+.yellow-jellyfish {
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    max-width: 40%;
+    height: auto;
+    z-index: 0;
+}
+
 /* About Me Section */
 .about-content {
     display: flex;
