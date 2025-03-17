@@ -120,15 +120,15 @@ header h2 {
 }
 
 /* Nourish Section */
-.nourish-section {
+.second-section {
     margin-top: 60px;
 }
 
-.nourish-section h3 {
+.second-section h3 {
     margin-bottom: 20px;
 }
 
-.nourish-section img {
+.second-section img {
     width: 100%;
     margin-top: 40px; 
     display: block;
