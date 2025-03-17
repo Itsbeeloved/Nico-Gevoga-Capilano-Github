@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #08080C;
@@ -204,7 +205,6 @@ hr {
     border-radius: 20px;
     padding: 8px 20px;
     font-size: 14px;
-    cursor: pointer;
     white-space: nowrap;
     color: #FFFFFF;
     text-decoration: none;
@@ -212,11 +212,17 @@ hr {
 
 .button-container a {
     text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
 }
 
-.learn-more:hover {
+.learn-more:hover a{
     color: #196DFF;
     border-color: #196DFF;
+    text-decoration: none;
 }
 
 /* Yellow Jellyfish */

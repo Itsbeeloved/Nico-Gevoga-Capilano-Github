@@ -126,6 +126,7 @@ header h2 {
 
 .second-section h3 {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .second-section img {
@@ -150,6 +151,10 @@ hr {
 
 .project-container {
     margin-bottom: 40px;
+}
+
+.second-section li {
+    color: #FFFFFF;
 }
 
 /* Footer Section */
