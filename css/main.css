@@ -219,6 +219,15 @@ hr {
     border-color: #196DFF;
 }
 
+/* Yellow Jellyfish */
+.yellow-jellyfish {
+    width: 65%;
+    max-width: 800px;
+    margin-bottom: 0px;
+    z-index: 1;
+    margin-right: auto;
+}
+
 /* Footer Section */
 .footer-wrapper {
     display: flex;
@@ -229,21 +238,16 @@ hr {
     margin-top: 60px;
 }
 
-.yellow-jellyfish {
-    width: 65%;
-    max-width: 800px;
-    margin-bottom: -5px; /* Remove any gap between jellyfish and footer */
-    z-index: 1;
-}
-
 footer {
     background-color: #07328B;
     color: white;
     padding: 20px 0;
     width: 100%;
+    height: 185px;
     box-sizing: border-box;
     position: relative;
     z-index: 0;
+    
 }
 
 .footer-content {
@@ -379,11 +383,6 @@ footer {
     background-size: 40%; 
     background-position: left center; 
 }
-}
-
-.about-content {
-    flex-direction: column;
-    align-items: center;
 }
 
 .about-img {
